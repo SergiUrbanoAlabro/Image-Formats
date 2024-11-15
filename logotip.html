@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Format Experiment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="bg-blue-500 text-white text-center p-5">
+      <h1 class="text-4xl">Image Format Experiment</h1>
+    </header>
+    <main
+      class="text-base text-center p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5"
+    >
+      <div class="bg-gray-200 p-3 rounded-lg shadow-lg hover:bg-gray-300 transition ease-in-out">
+        <img src="images/logotip.jpg" alt="Example 1" class="w-full" />
+        <p>JamesWebbImg Normal JPG</p>
+        <div class="image-info"></div>
+      </div>
+      <div class="bg-gray-200 p-3 rounded-lg shadow-lg hover:bg-gray-300 transition ease-in-out">
+        <img src="images/logotip80.jpg" alt="Example 1" class="w-full" />
+        <p>JamesWebbImg Reduit a 80 JPG</p>
+        <div class="image-info"></div>
+      </div>
+      <div class="bg-gray-200 p-3 rounded-lg shadow-lg hover:bg-gray-300 transition ease-in-out">
+        <img src="images/logotip50.jpg" alt="Example 1" class="w-full" />
+        <p>JamesWebbImg Reduit a 50 JPG</p>
+        <div class="image-info"></div>
+      </div>
+      <div class="bg-gray-200 p-3 rounded-lg shadow-lg hover:bg-gray-300 transition ease-in-out">
+        <img src="images/logotip25.jpg" alt="Example 1" class="w-full" />
+        <p>JamesWebbImg Reduit a 25 JPG</p>
+        <div class="image-info"></div>
+      </div>
+      <div class="bg-gray-200 p-3 rounded-lg shadow-lg hover:bg-gray-300 transition ease-in-out">
+        <img src="images/logotip.gif" alt="Example 1" class="w-full" />
+        <p>JamesWebbImg GIF</p>
+        <div class="image-info"></div>
+      </div>
+      <div class="bg-gray-200 p-3 rounded-lg shadow-lg hover:bg-gray-300 transition ease-in-out">
+        <img src="images/logotip.png" alt="Example 1" class="w-full" />
+        <p>JamesWebbImg PNG</p>
+        <div class="image-info"></div>
+      </div>
+      <div class="bg-gray-200 p-5 rounded-lg shadow-lg hover:bg-gray-300 transition ease-in-out">
+        <p class="font-bold text-lg">Quin format és el més òptim per aquest tipus d’imatge i per què? Es podria reduir encara més la mida? Perdria qualitat?</p>
+        <p>En aquest cas la millor opció sería GIF, ja que conté colors simples sense necessitat de gradients ni profunditat, només colors plans i amb poca quantitat.</p>
+      </div>
+    </main>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
